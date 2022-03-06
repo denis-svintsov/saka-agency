@@ -1,0 +1,27 @@
+<IfModule mod_expires.c>
+
+Header append Cache-Control "public"
+
+FileETag MTime Size
+
+ExpiresActive On
+
+ExpiresDefault "access plus 0 minutes"
+
+ExpiresByType image/ico "acces plus 1 month"
+
+ExpiresByType text/css "acces plus 1 month"
+
+ExpiresByType text/javascript "acces plus 1 month"
+
+ExpiresByType image/gif "acces plus 1 month"
+
+ExpiresByType image/jpg "acces plus 1 month"
+
+ExpiresByType image/jpeg "acces plus 1 month"
+
+ExpiresByType image/bmp "acces plus 1 month"
+
+ExpiresByType image/png "acces plus 1 month"
+
+</IfModule>
