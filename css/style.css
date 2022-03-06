@@ -989,7 +989,7 @@ body._lock {
   }
 
   .header-block__title {
-    font-size: 3.8125rem;
+    font-size: 3.8125rem !important;
   }
 
   .about__title:not(:last-child) {
@@ -1607,7 +1607,7 @@ body._lock {
 
 @media (max-width: 991px) {
   .title {
-    font-size: 2.875rem !important;
+    font-size: 2.875rem;
   }
 
   .page__header-block {
@@ -1690,7 +1690,7 @@ body._lock {
 
 @media (max-width: 767px) {
   .title {
-    font-size: 2rem !important;
+    font-size: 2rem;
   }
 
   .header-block__image {
